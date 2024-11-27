@@ -71,15 +71,14 @@
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  /* margin-right: 20px; */
 }
 
 .header__theme-menu-item {
   list-style: none;
   margin-right: 23px;
 }
-.header__theme-menu-item:last-child {
-  margin-right: 0px;
-}
+
 
 .header__theme-menu-button {
   background-color: transparent;
@@ -113,7 +112,6 @@
   letter-spacing: 0%;
   text-shadow: 4px 4px 0 var(--accent-color);
   text-align: left;
-  margin-bottom: 114px;
 }
 
 .header__description{
@@ -125,9 +123,9 @@
   font-weight: bold;
   line-height: 23.4px;
   letter-spacing: 0%;
-  position: relative;
-  text-align: right;
-  inline-size: 491px;
+  text-align: left;
+  max-width: 491px;
+  margin-right: 20px;
 }
 
 
