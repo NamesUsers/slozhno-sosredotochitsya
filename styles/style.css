@@ -71,7 +71,7 @@
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  /* margin-right: 20px; */
+  margin-right: 20px;
 }
 
 .header__theme-menu-item {
@@ -88,7 +88,7 @@
   font-weight: 400;
   line-height: 18px;
   border: none;
-  padding: 1.5px 13px;
+  padding: 2px 13px;
   text-transform: lowercase;
 }
 
