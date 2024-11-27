@@ -1,5 +1,109 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  font-family: var(--font-family), sans-serif;
+  position: relative;
+  margin: 0;
+  /* height: 100vh; */
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
+
+.header {
+  background-image: url(../images/cover-image-dark.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100vh;
+  position: relative;
+}
+.header::after {
+  display: var(--rec);
+  position: absolute;
+  content:"";
+  top: 20px;
+  right: 20px;
+  border-top:1px solid var(--color-button-bg);
+  border-right:1px solid var(--color-button-bg);
+  width: 25px;
+  height: 25px;
+}
+.header::before {
+  display: var(--rec);
+  position: absolute;
+  content:"";
+  width: 25px;
+  height: 25px;
+  border-bottom:1px solid var(--color-button-bg);
+  border-left:1px solid var(--color-button-bg);
+  bottom: 20px;
+  left: 20px;
+}
+.decorated-zone {
+  position: relative;
+}
+
+.rec {
+  padding-top: 20px;
+  position: absolute;
+  display: var(--rec);
+  align-items: center;
+  color: var(--color-text-bg);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  right: 29px;
+  text-align: right;
+}
+.rec::after {
+  margin-left: 10px;
+  content: "";
+  width: 9px;
+  height: 9px;
+  box-shadow: 0px 0px 4px 2px rgb(255, 0, 112);
+  background: rgb(255, 0, 112);
+  border-radius: 50%;
+}
+
+.header__theme-menu-list {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.header__theme-menu-item {
+  list-style: none;
+  margin-right: 23px;
+}
+.header__theme-menu-item:last-child {
+  margin-right: 0px;
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  color: var(--color-button-text);
+  font-family: var(--font-family), sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  border: none;
+  padding: 1.5px 13px;
+  text-transform: lowercase;
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+  outline: 1px solid var(--color-button-bg);
+}
+
+.header__title {
+  color: var(--color-hero-text);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+  font-weight: 700;
+  line-height: 82.5%;
+  letter-spacing: 0%;
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+.header__description {
+}
+
