@@ -2,7 +2,6 @@
 .page {
   font-family: var(--font-family), sans-serif;
   position: relative;
-  font-size: 10px;
   /* height: 100vh; */
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
@@ -12,7 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 
@@ -128,6 +127,7 @@
   text-align: left;
   max-width: 491px;
   margin-right: 20px;
+  margin-bottom: 135px;
 }
 
 
