@@ -2,7 +2,6 @@
 .page {
   font-family: var(--font-family), sans-serif;
   position: relative;
-  margin: 0;
   font-size: 10px;
   /* height: 100vh; */
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
@@ -67,11 +66,10 @@
 }
 
 .header__theme-menu-list {
-  margin-top: 0;
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .header__theme-menu-item {
@@ -112,6 +110,7 @@
   letter-spacing: 0%;
   text-shadow: 4px 4px 0 var(--accent-color);
   text-align: left;
+  margin-bottom: 114px;
 }
 
 .header__description{
