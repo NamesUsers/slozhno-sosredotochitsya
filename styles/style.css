@@ -16,6 +16,7 @@
   height: 100vh;
   position: relative;
 }
+
 .header::after {
   display: var(--rec);
   position: absolute;
@@ -27,6 +28,7 @@
   width: 25px;
   height: 25px;
 }
+
 .header::before {
   display: var(--rec);
   position: absolute;
@@ -38,6 +40,7 @@
   bottom: 20px;
   left: 20px;
 }
+
 .decorated-zone {
   position: relative;
 }
@@ -54,6 +57,7 @@
   right: 29px;
   text-align: right;
 }
+
 .rec::after {
   margin-left: 10px;
   content: "";
@@ -104,6 +108,5 @@
   letter-spacing: 0%;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
-.header__description {
-}
+
 
