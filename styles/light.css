@@ -15,6 +15,8 @@
   --font-family:IBM Plex Mono;
   --rec:none;
   --accent-color: #ff8dcb;
+  --bg-hero:url(../images/cover-image-light.png);
+  --color-decoration:rgb(53, 52, 48);
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,6 +32,8 @@
       --font-family:IBM Plex Mono;
       --rec:none;
       --accent-color: #ff8dcb;
+      --bg-hero:url(../images/cover-image-light.png);
+      --color-decoration:rgb(53, 52, 48);
     }
   }
 
@@ -45,4 +49,7 @@
   --color-card-text:rgb(53, 52, 48);
   --rec:none;
   --accent-color: #ff8dcb;
+  --bg-hero:url(../images/cover-image-light.png);
+  --color-decoration:rgb(53, 52, 48);
+  
 }

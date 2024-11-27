@@ -14,6 +14,8 @@
   --color-card-text:rgb(255, 0, 112);
   --rec:flex;
   --accent-color: #ff8dcb;
+  --bg-hero:url(../images/cover-image-dark.png);
+  --color-decoration:rgb(255, 0, 112);
 }
 
 

@@ -1,15 +1,15 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   font-family: var(--font-family), sans-serif;
   position: relative;
   margin: 0;
+  font-size: 10px;
   /* height: 100vh; */
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
 .header {
-  background-image: url(../images/cover-image-dark.png);
+  background-image: var(--bg-hero);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -18,25 +18,23 @@
 }
 
 .header::after {
-  display: var(--rec);
   position: absolute;
   content:"";
   top: 20px;
   right: 20px;
-  border-top:1px solid var(--color-button-bg);
-  border-right:1px solid var(--color-button-bg);
+  border-top:1px solid var(--color-decoration);
+  border-right:1px solid var(--color-decoration);
   width: 25px;
   height: 25px;
 }
 
 .header::before {
-  display: var(--rec);
   position: absolute;
   content:"";
   width: 25px;
   height: 25px;
-  border-bottom:1px solid var(--color-button-bg);
-  border-left:1px solid var(--color-button-bg);
+  border-bottom:1px solid var(--color-decoration);
+  border-left:1px solid var(--color-decoration);
   bottom: 20px;
   left: 20px;
 }
@@ -95,9 +93,16 @@
   text-transform: lowercase;
 }
 
+
 .header__theme-menu-button_active {
   pointer-events: none;
   outline: 1px solid var(--color-button-bg);
+}
+
+.header__main{
+  margin-top: 273px;
+  width: 100%;
+  text-align: right;
 }
 
 .header__title {
@@ -107,6 +112,22 @@
   line-height: 82.5%;
   letter-spacing: 0%;
   text-shadow: 4px 4px 0 var(--accent-color);
+  text-align: left;
+  margin-bottom: 114px;
+}
+
+.header__description{
+  display: inline-block;
+  font-size: 18px;
+  min-height: 71px;
+  color: var(--color-title-text);
+  background-color: var(--color-text-bg);
+  font-weight: bold;
+  line-height: 23.4px;
+  letter-spacing: 0%;
+  position: relative;
+  text-align: right;
+  inline-size: 491px;
 }
 
 
