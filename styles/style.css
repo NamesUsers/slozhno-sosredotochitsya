@@ -2,6 +2,8 @@
 .page {
   font-family: var(--font-family), sans-serif;
   position: relative;
+  background-attachment: fixed;
+  background-color: var(--theme-bg);
   /* height: 100vh; */
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
@@ -17,22 +19,22 @@
 
 .header::after {
   position: absolute;
-  content:"";
+  content: "";
   top: 20px;
   right: 20px;
-  border-top:1px solid var(--color-decoration);
-  border-right:1px solid var(--color-decoration);
+  border-top: 1px solid var(--color-decoration);
+  border-right: 1px solid var(--color-decoration);
   width: 25px;
   height: 25px;
 }
 
 .header::before {
   position: absolute;
-  content:"";
+  content: "";
   width: 25px;
   height: 25px;
-  border-bottom:1px solid var(--color-decoration);
-  border-left:1px solid var(--color-decoration);
+  border-bottom: 1px solid var(--color-decoration);
+  border-left: 1px solid var(--color-decoration);
   bottom: 20px;
   left: 20px;
 }
@@ -92,36 +94,54 @@
   text-transform: lowercase;
 }
 
+.list__link:focus,
+.header__theme-menu-button:focus {
+  border: none;
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  outline: none;
+  border-bottom: 1px solid var(--color-button-bg);
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--color-button-bg-hover);
+}
 
 .header__theme-menu-button_active {
   pointer-events: none;
   outline: 1px solid var(--color-button-bg);
 }
 
-.header__main{
+
+.header__main {
   margin-top: 273px;
   width: 100%;
   text-align: right;
 }
 
-.header__title {
+.title {
   color: var(--color-hero-text);
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
   line-height: 82.5%;
   letter-spacing: 0%;
-  text-shadow: 4px 4px 0 var(--accent-color);
   text-align: left;
   margin-bottom: 117px;
 }
 
-.header__description{
+.title-decor {
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.header__description {
   display: inline-block;
   font-size: 18px;
   min-height: 71px;
   color: var(--color-title-text);
   background-color: var(--color-text-bg);
-  font-weight: bold;
+  font-weight: 700;
   line-height: 23.4px;
   letter-spacing: 0%;
   text-align: left;
@@ -130,4 +150,239 @@
   margin-bottom: 135px;
 }
 
+/* ======================================================= */
+/* ======================================================= */
 
+.cards__why {
+  padding: 60px 20px 80px;
+  width: 100%;
+  display: flex;
+}
+
+.cards__title {
+  color: var(--color-card-text);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  display: block;
+  width: 100%;
+  max-width: 315px;
+}
+
+.why__title {
+  margin-right: 20px;
+}
+
+.why__list {
+  display: flex;
+  flex-direction: column;
+  max-width: max(100%, 649px);
+  width: calc(100% / (2/3));
+}
+
+.why__item {
+  margin-bottom: 20px;
+}
+
+.why__item:last-child {
+  margin-bottom: 0px;
+}
+
+.list__title,
+.may__title {
+  display: block;
+  color: var(--color-title-text);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  margin-bottom: 10px;
+  background-color: var(--color-text-bg);
+}
+
+
+.list__des {
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+}
+
+.title-decor--link {
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.list__link {
+  text-decoration: none;
+}
+
+.list__link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-link-hover);
+}
+
+.list__link:focus-visible {
+  outline: 1px solid var(--color-link-focus);
+}
+
+/* ================================================================ */
+/* ================================================================ */
+
+.cards__what {
+  padding: 0px 20px 80px;
+}
+
+.what__title {
+  margin-bottom: 20px;
+}
+
+.what__list {
+  display: flex;
+}
+
+.what__item {
+  width: calc(100% / 3);
+  margin-right: 20px;
+}
+
+.what__item:last-child {
+  margin-right: 0px;
+}
+
+/* ======================================== */
+/* ======================================== */
+
+.cards__how {
+  padding: 0px 20px 80px;
+  display: flex;
+}
+
+.how__title {
+  margin-right: 20px;
+}
+
+.cards__title {
+  margin-bottom: 20px;
+}
+
+.how__list {
+  max-width: max(100%, 649px);
+  width: calc(100% / (2/3));
+}
+
+.how__item {
+  margin-bottom: 20px;
+}
+
+.how__item:last-child {
+  margin-bottom: 0px;
+}
+
+.how__article {}
+
+.how__text-title {}
+
+.list__title {}
+
+.how__text-subtitle {
+  color: var(--color-subtitle-text);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  margin-bottom: 10px;
+  background-color: var(--color-text-bg);
+  margin-bottom: 10px;
+}
+
+/* ====================================================================== */
+/* ====================================================================== */
+
+.cards__may {
+  padding: 0px 20px 60px;
+}
+
+.may__list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(315px, 649px));
+}
+
+.may__item {
+
+}
+
+.may__item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.sunset {
+  grid-column-start: span 2;
+  max-width: max(100%,649px);
+  max-height: 260px;
+}
+
+
+.ice-cream {
+  grid-column-start: 3;
+  grid-column-end: auto;
+  grid-row-start: span 2;
+  max-width: max(100%,315px);
+  max-height: 595px;
+}
+
+.tape {
+  grid-row-start: 2;
+  grid-row-end: span 3;
+  grid-column-start: 1;
+  max-width: max(100%,315px);
+  max-height: 97.5%;
+}
+
+.books {
+  max-width: max(100%,315px);
+  max-height: 315px;
+} 
+
+.street {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  max-width: max(100%,649px);
+  max-height: 428px;
+}
+
+/* ========================================================= */
+/* ========================================================= */
+
+.footer {
+  padding: 19.9375rem 0px;
+  position: relative;
+}
+
+.footer::after {
+  position: absolute;
+  content: "";
+  top: 20px;
+  right: 20px;
+  border-top: 1px solid var(--color-decoration);
+  border-right: 1px solid var(--color-decoration);
+  width: 25px;
+  height: 25px;
+}
+
+.footer::before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-bottom: 1px solid var(--color-decoration);
+  border-left: 1px solid var(--color-decoration);
+  bottom: 20px;
+  left: 20px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+}

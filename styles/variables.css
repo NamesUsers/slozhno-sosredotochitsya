@@ -7,9 +7,13 @@
   --theme-bg:rgb(0, 0, 40);
   --color-hero-text: rgb(219, 0, 255);
   --color-title-text:rgb(0, 0, 40);
+  --color-subtitle-text:rgb(0, 0, 40);
   --color-text:rgb(241, 178, 206);
+  --color-link-focus:rgb(241, 178, 206);
+  --color-link-hover:rgb(241, 178, 206);
   --color-text-bg:rgb(255, 0, 112);
   --color-button-bg:rgb(255, 0, 112);
+  --color-button-bg-hover:rgba(255, 0, 112, 0.4);
   --color-button-text:rgb(255, 0, 112);
   --color-card-text:rgb(255, 0, 112);
   --rec:flex;

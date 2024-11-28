@@ -7,49 +7,58 @@
   --theme-bg: rgb(255, 241, 247);
   --color-hero-text: rgb(255, 194, 230);
   --color-title-text: rgb(53, 52, 48);
+  --color-link-focus: rgb(53, 52, 48);
+  --color-link-hover: rgb(53, 52, 48);
   --color-text: rgb(53, 52, 48);
   --color-text-bg: rgb(255, 141, 203);
-  --color-button-bg:rgb(53, 52, 48);
-  --color-button-text:rgb(53, 52, 48);
-  --color-card-text:rgb(53, 52, 48);
-  --font-family:IBM Plex Mono;
-  --rec:none;
+  --color-button-bg: rgb(53, 52, 48);
+  --color-button-bg-hover: rgba(50, 49, 45, 0.4);
+  --color-button-text: rgb(53, 52, 48);
+  --color-card-text: rgb(53, 52, 48);
+  --font-family: IBM Plex Mono;
+  --rec: none;
   --accent-color: #ff8dcb;
-  --bg-hero:url(../images/cover-image-light.png);
-  --color-decoration:rgb(53, 52, 48);
+  --bg-hero: url(../images/cover-image-light.png);
+  --color-decoration: rgb(53, 52, 48);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-      --theme-bg: rgb(255, 241, 247);
-      --color-hero-text: rgb(255, 194, 230);
-      --color-title-text: rgb(53, 52, 48);
-      --color-text: rgb(53, 52, 48);
-      --color-text-bg: rgb(255, 141, 203);
-      --color-button-bg:rgb(53, 52, 48);
-      --color-button-text:rgb(53, 52, 48);
-      --color-card-text:rgb(53, 52, 48);
-      --font-family:IBM Plex Mono;
-      --rec:none;
-      --accent-color: #ff8dcb;
-      --bg-hero:url(../images/cover-image-light.png);
-      --color-decoration:rgb(53, 52, 48);
-    }
+    --theme-bg: rgb(255, 241, 247);
+    --color-hero-text: rgb(255, 194, 230);
+    --color-title-text: rgb(53, 52, 48);
+    --color-link-focus: rgb(53, 52, 48);
+    --color-link-hover: rgb(53, 52, 48);
+    --color-text: rgb(53, 52, 48);
+    --color-text-bg: rgb(255, 141, 203);
+    --color-button-bg-hover: rgba(50, 49, 45, 0.4);
+    --color-button-bg: rgb(53, 52, 48);
+    --color-button-text: rgb(53, 52, 48);
+    --color-card-text: rgb(53, 52, 48);
+    --font-family: IBM Plex Mono;
+    --rec: none;
+    --accent-color: #ff8dcb;
+    --bg-hero: url(../images/cover-image-light.png);
+    --color-decoration: rgb(53, 52, 48);
   }
+}
 
 .page.theme_light {
-  --font-family:IBM Plex Mono;
+  --font-family: IBM Plex Mono;
   --theme-bg: rgb(255, 241, 247);
   --color-hero-text: rgb(255, 194, 230);
   --color-title-text: rgb(53, 52, 48);
+  --color-link-focus: rgb(53, 52, 48);
+  --color-link-hover: rgb(53, 52, 48);
   --color-text: rgb(53, 52, 48);
   --color-text-bg: rgb(255, 141, 203);
-  --color-button-bg:rgb(53, 52, 48);
-  --color-button-text:rgb(53, 52, 48);
-  --color-card-text:rgb(53, 52, 48);
-  --rec:none;
+  --color-button-bg-hover: rgba(50, 49, 45, 0.4);
+  --color-button-bg: rgb(53, 52, 48);
+  --color-button-text: rgb(53, 52, 48);
+  --color-card-text: rgb(53, 52, 48);
+  --rec: none;
   --accent-color: #ff8dcb;
-  --bg-hero:url(../images/cover-image-light.png);
-  --color-decoration:rgb(53, 52, 48);
-  
+  --bg-hero: url(../images/cover-image-light.png);
+  --color-decoration: rgb(53, 52, 48);
+
 }
