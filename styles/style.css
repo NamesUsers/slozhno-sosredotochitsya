@@ -207,7 +207,7 @@
   line-height: 23.4px;
 }
 
-.title-decor--link {
+.title-decor--other {
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
@@ -383,4 +383,5 @@
 .footer__title {
   display: block;
   text-align: center;
+  margin-bottom: 0;
 }
