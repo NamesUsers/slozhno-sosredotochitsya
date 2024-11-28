@@ -354,7 +354,7 @@
 /* ========================================================= */
 
 .footer {
-  padding: 319px 0px 309px;
+  padding: 319px 0px 304px;
   position: relative;
 }
 
@@ -383,5 +383,5 @@
 .footer__title {
   display: block;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 25px;
 }
