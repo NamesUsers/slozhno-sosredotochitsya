@@ -360,8 +360,7 @@
 
 .footer {
   height: 100vh;
-  padding: 304px 0px 234px;
-  /* padding: 304px 0px 274px; */
+  padding: 304px 0px 274px;
   position: relative;
 }
 
@@ -475,7 +474,7 @@
   /* ========================================================================= */
   
   .footer {
-    padding: 447px 0px 357px;
+    padding: 447px 0px 417px;
   }
 
 }
