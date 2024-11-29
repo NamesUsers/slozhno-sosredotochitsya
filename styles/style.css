@@ -481,6 +481,10 @@
     padding: 447px 0px 417px;
   }
 
+  .footer::after {
+    top: 0px;
+  }
+
 }
 
 @media (width <=375px) {
@@ -501,7 +505,7 @@
     }
 
   .header__description {
-    margin: 0 10px;
+    margin: 0px 10px 12px;
     max-width: 100%;
   }
 
