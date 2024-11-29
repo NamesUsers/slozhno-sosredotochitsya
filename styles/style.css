@@ -556,6 +556,10 @@
     padding: 0px 10px 40px;
   }
 
+  .may__title {
+    margin-bottom: 10px;
+  }
+
   .may__list {
     gap: 00px;
     grid-template: repeat(5,1fr) / 1fr;
