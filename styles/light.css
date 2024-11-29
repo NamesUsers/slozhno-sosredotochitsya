@@ -20,6 +20,7 @@
   --accent-color: #ff8dcb;
   --bg-hero: url(../images/cover-image-light.png);
   --color-decoration: rgb(53, 52, 48);
+  --rec-color: transparent ;
 }
 
 @media (prefers-color-scheme: light) {
@@ -40,6 +41,7 @@
     --accent-color: #ff8dcb;
     --bg-hero: url(../images/cover-image-light.png);
     --color-decoration: rgb(53, 52, 48);
+    --rec-color: transparent ;
   }
 }
 
@@ -60,5 +62,5 @@
   --accent-color: #ff8dcb;
   --bg-hero: url(../images/cover-image-light.png);
   --color-decoration: rgb(53, 52, 48);
-
+  --rec-color: transparent ;
 }
