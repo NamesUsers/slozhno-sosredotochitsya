@@ -43,6 +43,7 @@
 }
 
 .rec {
+  display: block;
   position: relative;
 }
 
