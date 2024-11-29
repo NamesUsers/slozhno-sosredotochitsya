@@ -492,7 +492,7 @@
   }
 
   .header__title {
-      margin-bottom: 50px;
+      margin: 0px 10px 50px;
     }
 
   .header__description {
@@ -604,7 +604,7 @@
   }
   
   .footer::before {
-    bottom:0px;
+    bottom:10px;
     left: 10px;
   }
 }
