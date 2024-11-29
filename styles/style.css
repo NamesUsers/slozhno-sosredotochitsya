@@ -44,7 +44,11 @@
 }
 
 .rec {
-  padding-top: 20px;
+  position: relative;
+}
+
+.rec::before {
+  content: "REC";
   position: absolute;
   display: var(--rec);
   align-items: center;
@@ -52,13 +56,16 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  right: 29px;
+  right: 48px;
+  top: 20px;
   text-align: right;
 }
 
 .rec::after {
-  margin-left: 10px;
   content: "";
+  position: absolute;
+  right: 29px;
+  top: 28px;
   width: 9px;
   height: 9px;
   box-shadow: 0px 0px 4px 2px rgb(255, 0, 112);
@@ -128,6 +135,9 @@
   line-height: 82.5%;
   letter-spacing: 0%;
   text-align: left;
+}
+
+.header__title{
   margin-bottom: 117px;
 }
 
@@ -306,8 +316,7 @@
   max-width: max(100%,984px);
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(315px,1fr));
-  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, 1fr);
 }
 
 .may__item img {
@@ -321,7 +330,6 @@
   max-width: max(100%,649px);
   max-height: 260px;
 }
-
 
 .ice-cream {
   grid-column-start: 3;
@@ -386,4 +394,88 @@
   display: block;
   text-align: center;
   margin-bottom: 0;
+}
+
+
+/* ============================================================ */
+/* ============================================================ */
+
+@media (width >=375px) and (width <=768px) {
+
+  .header__theme-menu-list {
+    padding:192px 20px 173px 0px ;
+    flex-direction: column;
+  }
+
+  .header__theme-menu-item {
+    text-align: right;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .header__theme-menu-item:last-child {
+    margin-bottom: 0px;
+  }
+
+  .header__main {
+    margin-top: 0;
+    padding-bottom: 183px;
+  }
+
+  .header__description {
+    max-width: 364px;
+    margin-bottom: 0;
+  }
+
+  .header__title {
+    margin-bottom: 162px;
+  }
+
+  /* =============================================================== */
+  /* =============================================================== */
+
+  .cards__title {
+    max-width: 236px;
+  }
+
+  .what__list {
+    flex-direction: column;
+  }
+
+  .what__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .what__item:last-child {
+    margin-bottom: 0px;
+  }
+
+  /* ================================================================= */
+  /* ================================================================= */
+
+  .sunset {
+    max-height: 192px;
+  }
+
+  .ice-cream {
+    max-height: 441px;
+  }
+  
+  .tape {
+    max-height: 96.5%;
+  }
+  
+  .books {
+    max-height: 230px;
+  } 
+  
+  .street {
+    max-height: 318px;
+  }   
+
+  .footer {
+    padding: 433px 0px 417px;
+  }
+
 }
