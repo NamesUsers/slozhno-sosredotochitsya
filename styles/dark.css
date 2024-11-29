@@ -4,12 +4,14 @@
   переключая тему
 */
 :root.theme-dark {
+  --font-family:IBM Plex Mono;
   --theme-bg:rgb(0, 0, 40);
-  ---color-hero-text: rgb(219, 0, 255);
+  --color-hero-text: rgb(219, 0, 255);
   --color-title-text:rgb(0, 0, 40);
+  --color-subtitle-text:rgb(0, 0, 40);
+  --color-text:rgb(241, 178, 206);
   --color-link-focus:rgb(241, 178, 206);
   --color-link-hover:rgb(241, 178, 206);
-  --color-text:rgb(241, 178, 206);
   --color-text-bg:rgb(255, 0, 112);
   --color-button-bg:rgb(255, 0, 112);
   --color-button-bg-hover:rgba(255, 0, 112, 0.4);
@@ -17,19 +19,21 @@
   --color-card-text:rgb(255, 0, 112);
   --rec:flex;
   --rec-color:rgb(255, 0, 112);
-  --accent-color: #ff8dcb;
+  --accent-color: rgb(255, 0, 112);
   --bg-hero:url(../images/cover-image-dark.png);
   --color-decoration:rgb(255, 0, 112);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --font-family:IBM Plex Mono;
     --theme-bg:rgb(0, 0, 40);
-    ---color-hero-text: rgb(219, 0, 255);
+    --color-hero-text: rgb(219, 0, 255);
     --color-title-text:rgb(0, 0, 40);
+    --color-subtitle-text:rgb(0, 0, 40);
+    --color-text:rgb(241, 178, 206);
     --color-link-focus:rgb(241, 178, 206);
     --color-link-hover:rgb(241, 178, 206);
-    --color-text:rgb(241, 178, 206);
     --color-text-bg:rgb(255, 0, 112);
     --color-button-bg:rgb(255, 0, 112);
     --color-button-bg-hover:rgba(255, 0, 112, 0.4);
@@ -37,18 +41,20 @@
     --color-card-text:rgb(255, 0, 112);
     --rec:flex;
     --rec-color:rgb(255, 0, 112);
-    --accent-color: #ff8dcb;
+    --accent-color: rgb(255, 0, 112);
     --bg-hero:url(../images/cover-image-dark.png);
     --color-decoration:rgb(255, 0, 112);
   }
 }
 .page.theme_dark {
+  --font-family:IBM Plex Mono;
   --theme-bg:rgb(0, 0, 40);
-  ---color-hero-text: rgb(219, 0, 255);
+  --color-hero-text: rgb(219, 0, 255);
   --color-title-text:rgb(0, 0, 40);
+  --color-subtitle-text:rgb(0, 0, 40);
+  --color-text:rgb(241, 178, 206);
   --color-link-focus:rgb(241, 178, 206);
   --color-link-hover:rgb(241, 178, 206);
-  --color-text:rgb(241, 178, 206);
   --color-text-bg:rgb(255, 0, 112);
   --color-button-bg:rgb(255, 0, 112);
   --color-button-bg-hover:rgba(255, 0, 112, 0.4);
@@ -56,7 +62,7 @@
   --color-card-text:rgb(255, 0, 112);
   --rec:flex;
   --rec-color:rgb(255, 0, 112);
-  --accent-color: #ff8dcb;
+  --accent-color: rgb(255, 0, 112);
   --bg-hero:url(../images/cover-image-dark.png);
   --color-decoration:rgb(255, 0, 112);
 }
