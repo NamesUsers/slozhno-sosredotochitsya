@@ -497,7 +497,7 @@
   }
 
   .header__title {
-      margin-bottom: 43px;
+      margin-bottom: 55px;
     }
 
   .header__description {
@@ -505,6 +505,15 @@
     max-width: 100%;
   }
 
+  .header::after {
+    top: 10px;
+    right: 10px;
+  } 
+  
+  .header::before {
+    bottom: 10px;
+    left: 10px;
+  }
   /* =============================================================== */
   /* =============================================================== */
 
