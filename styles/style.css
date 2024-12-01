@@ -9,6 +9,15 @@
 
 .header {
   background-image: var(--bg-hero);
+  background-image: -webkit-image-set(
+  var(--bg-hero-avif) type("image/avif"),
+  var(--bg-hero) type("image/png")
+  );
+  background-image: image-set(
+  var(--bg-hero-avif) type("image/avif"),
+  var(--bg-hero) type("image/png")
+  );
+  background-image: image-set(var(--bg-hero-avif) type("image/avif"), var(--bg-hero) type("image/png"));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -308,7 +317,7 @@
 }
 
 .may__list {
-  max-width: max(100%,984px);
+  max-width: max(100%, 984px);
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, 1fr);
@@ -322,7 +331,7 @@
 
 .sunset {
   grid-column-start: span 2;
-  max-width: max(100%,649px);
+  max-width: max(100%, 649px);
   max-height: 260px;
 }
 
@@ -330,7 +339,7 @@
   grid-column-start: 3;
   grid-column-end: auto;
   grid-row-start: span 2;
-  max-width: max(100%,315px);
+  max-width: max(100%, 315px);
   max-height: 595px;
 }
 
@@ -338,20 +347,20 @@
   grid-row-start: 2;
   grid-row-end: span 3;
   grid-column-start: 1;
-  max-width: max(100%,315px);
+  max-width: max(100%, 315px);
   max-height: 97.5%;
 }
 
 .books {
-  max-width: max(100%,315px);
+  max-width: max(100%, 315px);
   max-height: 315px;
-} 
+}
 
 .street {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 3;
-  max-width: max(100%,649px);
+  max-width: max(100%, 649px);
   max-height: 428px;
 }
 
@@ -399,7 +408,7 @@
 @media (width <=768px) {
 
   .header__theme-menu-list {
-    padding:192px 20px 173px 0px ;
+    padding: 192px 20px 173px 0px;
     flex-direction: column;
   }
 
@@ -457,22 +466,22 @@
   .ice-cream {
     max-height: 441px;
   }
-  
+
   .tape {
     max-height: 96.5%;
   }
-  
+
   .books {
     max-height: 230px;
-  } 
-  
+  }
+
   .street {
     max-height: 318px;
-  }   
+  }
 
   /* ========================================================================= */
   /* ========================================================================= */
-  
+
   .footer {
     padding: 447px 0px 417px;
   }
@@ -482,10 +491,10 @@
 @media (width <=375px) {
 
   .header__theme-menu-list {
-    padding:75px 10px 65px 0px ;
+    padding: 75px 10px 65px 0px;
     flex-direction: column;
   }
-  
+
   .header__main {
     text-align: center;
     margin-top: 12px;
@@ -493,8 +502,8 @@
   }
 
   .header__title {
-      margin: 0px 10px 50px;
-    }
+    margin: 0px 10px 50px;
+  }
 
   .header__description {
     margin: 0 10px;
@@ -504,12 +513,13 @@
   .header::after {
     top: 10px;
     right: 10px;
-  } 
-  
+  }
+
   .header::before {
     bottom: 10px;
     left: 10px;
   }
+
   /* =============================================================== */
   /* =============================================================== */
 
@@ -522,7 +532,7 @@
     margin-right: 0;
     max-width: 100%;
   }
-  
+
   /* ========================================================================= */
   /* ========================================================================= */
 
@@ -558,9 +568,9 @@
 
   .may__list {
     gap: 00px;
-    grid-template: repeat(5,1fr) / 1fr;
+    grid-template: repeat(5, 1fr) / 1fr;
   }
-  
+
   .may__item {
     max-width: 100%;
     grid-column-start: 1;
@@ -579,22 +589,22 @@
   .ice-cream {
     max-height: 355px;
   }
-  
+
   .tape {
     max-height: 237px;
   }
-  
+
   .books {
     max-height: 355px;
-  } 
-  
+  }
+
   .street {
     max-height: 237px;
   }
-  
+
   /* ========================================================================= */
   /* ========================================================================= */
-  
+
   .footer {
     padding: 286px 0px 285px;
   }
@@ -603,9 +613,9 @@
     top: 10px;
     right: 10px;
   }
-  
+
   .footer::before {
-    bottom:10px;
+    bottom: 10px;
     left: 10px;
   }
 }

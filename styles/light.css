@@ -19,6 +19,7 @@
   --rec: none;
   --accent-color: #ff8dcb;
   --bg-hero: url(../images/cover-image-light.png);
+  --bg-hero-avif:url(../images/cover-image-light.avif);
   --color-decoration: rgb(53, 52, 48);
   --rec-color: transparent ;
 }
@@ -40,6 +41,7 @@
     --rec: none;
     --accent-color: #ff8dcb;
     --bg-hero: url(../images/cover-image-light.png);
+    --bg-hero-avif:url(../images/cover-image-light.avif);
     --color-decoration: rgb(53, 52, 48);
     --rec-color: transparent ;
   }
@@ -61,6 +63,7 @@
   --rec: none;
   --accent-color: #ff8dcb;
   --bg-hero: url(../images/cover-image-light.png);
+  --bg-hero-avif:url(../images/cover-image-light.avif);
   --color-decoration: rgb(53, 52, 48);
   --rec-color: transparent ;
 }

@@ -20,5 +20,6 @@
   --rec-color:rgb(255, 0, 112);
   --accent-color: rgb(255, 0, 112);
   --bg-hero:url(../images/cover-image-dark.png);
+  --bg-hero-avif:url(../images/cover-image-dark.avif);
   --color-decoration:rgb(255, 0, 112);
 } 
