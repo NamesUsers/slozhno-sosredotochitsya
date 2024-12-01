@@ -383,6 +383,7 @@
 }
 
 .footer__title {
+  padding-top: 15px;
   display: block;
   text-align: center;
   margin-bottom: 0;
@@ -475,6 +476,10 @@
 
   .footer {
     padding: 447px 0px 417px;
+  }
+
+  .footer__title {
+    padding: 472px 0px 417px;
   }
 
 }
