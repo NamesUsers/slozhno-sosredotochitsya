@@ -17,7 +17,6 @@
   var(--bg-hero-avif) type("image/avif"),
   var(--bg-hero) type("image/png")
   );
-  background-image: image-set(var(--bg-hero-avif) type("image/avif"), var(--bg-hero) type("image/png"));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
