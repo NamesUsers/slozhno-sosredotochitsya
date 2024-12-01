@@ -19,7 +19,6 @@
   --rec: none;
   --accent-color: rgb(255, 0, 112);
   --bg-hero: url(../images/cover-image-light.png);
-  --bg-hero-avif:url(../images/cover-image-light.avif);
   --color-decoration: rgb(53, 52, 48);
   --rec-color: transparent ;
 }
@@ -41,7 +40,6 @@
     --rec: none;
     --accent-color: rgb(255, 0, 112);
     --bg-hero: url(../images/cover-image-light.png);
-    --bg-hero-avif:url(../images/cover-image-light.avif);
     --color-decoration: rgb(53, 52, 48);
     --rec-color: transparent ;
   }
@@ -63,10 +61,18 @@
   --rec: none;
   --accent-color: rgb(255, 0, 112);
   --bg-hero: url(../images/cover-image-light.png);
-  --bg-hero-avif:url(../images/cover-image-light.avif);
   --color-decoration: rgb(53, 52, 48);
   --rec-color: transparent ;
-  @media (width <= 768px) {
-    --accent-color: #ff8dcb;
+}
+
+@media (width <= 768px) {
+  .page.theme_light {
+    --accent-color: rgb(255, 141, 203);
+  }
+}
+
+@media (prefers-color-scheme: light) and (width <= 768px)  {
+  :root {
+    --accent-color: rgb(255, 141, 203);
   }
 }
