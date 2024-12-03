@@ -276,10 +276,11 @@
   margin-bottom: 20px;
 }
 
-.how__list {
+.main__content {
   max-width: max(100%, 649px);
   width: calc(100% / (2/3));
 }
+
 
 .how__item {
   margin-bottom: 20px;
