@@ -61,18 +61,3 @@
     --accent-color: rgb(255, 141, 203);
   }
 }
-
-@media (width <= 768px) {
-  .header__theme-menu-list {
-    padding: 75px 10px 60px 0px;
-    flex-direction: column;
-}
-
-  .header__theme-menu-item {
-    margin-bottom: 15px;
-  }
-
-  .header__theme-menu-item:last-child {
-    margin-bottom: 0px;
-  }
-}
