@@ -139,7 +139,7 @@
 }
 
 .header__title {
-  margin-bottom: 117px;
+  margin-bottom: clamp(3.125rem, 0.8138rem + 9.8613vw, 7.125rem);
 }
 
 .title-decor {
@@ -405,9 +405,6 @@
     margin-bottom: 0;
   }
 
-  .header__title {
-    margin-bottom: 162px;
-  }
 
   /* =============================================================== */
   /* =============================================================== */
@@ -483,7 +480,8 @@
   }
 
   .header__title {
-    margin: 0px 10px 50px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .header__description {
