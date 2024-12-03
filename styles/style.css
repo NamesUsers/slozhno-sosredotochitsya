@@ -248,13 +248,14 @@
 }
 
 .what__list {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .what__item {
-  width: calc((100% / 3) - 20px);
-  margin-right: 20px;
+  max-width: 315px;
 }
 
 .what__item:last-child {
