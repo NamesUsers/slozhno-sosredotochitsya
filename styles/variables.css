@@ -19,6 +19,7 @@
   --rec:flex;
   --rec-color:rgb(255, 0, 112);
   --accent-color: rgb(255, 0, 112);
+  --accent-color-other: rgb(255, 0, 112);
   --bg-hero:url(../images/cover-image-dark.png);
   --color-decoration:rgb(255, 0, 112);
 } 

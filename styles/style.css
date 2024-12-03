@@ -188,7 +188,7 @@
   margin-right: 20px;
 }
 .main__content,
-.why__list {
+.list {
   display: flex;
   flex-direction: column;
   max-width: max(100%, 649px);
@@ -223,7 +223,7 @@
 }
 
 .title-decor--other {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color-other);
 }
 
 .list__link {

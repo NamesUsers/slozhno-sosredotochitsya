@@ -20,6 +20,7 @@
     --font-family: IBM Plex Mono;
     --rec: none;
     --accent-color: rgb(255, 0, 112);
+    --accent-color-other: rgb(255, 141, 203);
     --bg-hero: url(../images/cover-image-light.png);
     --color-decoration: rgb(53, 52, 48);
     --rec-color: transparent ;
@@ -41,6 +42,7 @@
   --color-card-text: rgb(53, 52, 48);
   --rec: none;
   --accent-color: rgb(255, 0, 112);
+  --accent-color-other: rgb(255, 141, 203);
   --bg-hero: url(../images/cover-image-light.png);
   --color-decoration: rgb(53, 52, 48);
   --rec-color: transparent ;
