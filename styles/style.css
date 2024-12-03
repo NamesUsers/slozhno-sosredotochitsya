@@ -15,6 +15,7 @@
   height: 100vh;
   position: relative;
   min-height: 668px;
+  margin-bottom: 60px;
 }
 
 .decor {
@@ -158,14 +159,16 @@
   text-align: left;
   max-width: 491px;
   margin-right: 20px;
-  /* margin-bottom: 135px; */
 }
 
 /* ======================================================= */
 /* ======================================================= */
 
+.section {
+  padding: 0px 19px 80px;
+}
+
 .cards__why {
-  padding: 60px 20px 80px;
   width: 100%;
   display: flex;
 }
@@ -239,9 +242,6 @@
 /* ================================================================ */
 /* ================================================================ */
 
-.cards__what {
-  padding: 0px 19px 80px;
-}
 
 .what__title {
   margin-bottom: 20px;
@@ -263,7 +263,6 @@
 /* ======================================== */
 
 .cards__how {
-  padding: 0px 20px 80px;
   display: flex;
 }
 
