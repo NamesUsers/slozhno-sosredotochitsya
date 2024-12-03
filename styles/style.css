@@ -184,7 +184,7 @@
 .why__title {
   margin-right: 20px;
 }
-
+.main__content,
 .why__list {
   display: flex;
   flex-direction: column;
@@ -249,10 +249,11 @@
 
 .what__list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .what__item {
-  width: calc(100% / 3);
+  width: calc((100% / 3) - 20px);
   margin-right: 20px;
 }
 
@@ -274,11 +275,6 @@
 
 .how__text-title {
   margin-bottom: 20px;
-}
-
-.main__content {
-  max-width: max(100%, 649px);
-  width: calc(100% / (2/3));
 }
 
 
