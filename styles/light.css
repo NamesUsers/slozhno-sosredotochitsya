@@ -60,9 +60,11 @@
   :root {
     --accent-color: rgb(255, 141, 203);
   }
+}
 
+@media (width <= 768px) {
   .header__theme-menu-item {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
 
   .header__theme-menu-item:last-child {
