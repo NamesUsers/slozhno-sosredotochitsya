@@ -136,6 +136,7 @@
   width: 100%;
   text-align: right;
   min-height: 378px;
+  margin-bottom: 16px;
 }
 
 .title {
@@ -472,19 +473,6 @@
   }
 
 }
-
-
-/* 
-@media (width <=600px) {
-  .header__title {
-    margin-bottom: 92px;
-  }
-
-  .header__theme-menu-list {
-    padding: 192px 20px 94px 0px;
-    flex-direction: column;
-}
-} */
 
 @media (width <=500px) {
 
