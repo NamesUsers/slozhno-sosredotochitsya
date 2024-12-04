@@ -387,7 +387,7 @@
 @media (width <=768px) {
 
   .header__theme-menu-list {
-    padding-top: clamp(4.688rem, 0.4630rem + 18.0265vw, 12rem);
+    padding-top: clamp(4.688rem, 2.4630rem + 18.0265vw, 12rem);
     padding-right: 20px;
     flex-direction: column;
   }
