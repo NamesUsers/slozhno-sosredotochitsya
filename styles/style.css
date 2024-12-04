@@ -386,8 +386,12 @@
 
 @media (width <=768px) {
 
+  .header__main {
+    padding-bottom: clamp(2rem, -1.8836rem + 15.7165vw, 6.375rem);
+}
+
   .header__theme-menu-list {
-    padding-top: clamp(4.688rem, 0.463rem + 18.0265vw, 12rem);
+    padding-top: clamp(10.688rem, 0.463rem + 18.0265vw, 12rem);
     padding-right: 20px;
     flex-direction: column;
   }
@@ -408,7 +412,7 @@
   }
   
   .header__title {
-    margin-bottom: clamp(2rem, 4.0834rem + 10.0462vw, 10.125rem);
+    margin-bottom: clamp(2rem, 5.0834rem + 10.0462vw, 10.125rem);
   }
 
   /* =============================================================== */
