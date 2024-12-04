@@ -28,15 +28,3 @@
   }
 
 }
-
-
-@media (width <= 768px) {
-  .page.theme_dark .header__theme-menu-item {
-    list-style: none;
-    margin-right: 23px;
-  }
-  
-  .page.theme_dark .header__theme-menu-item:last-child {
-    margin-right: 0px;
-  }
-}
