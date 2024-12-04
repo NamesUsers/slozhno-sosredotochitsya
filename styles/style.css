@@ -82,16 +82,11 @@
   display: flex;
   justify-content: center;
   padding-top: 23px;
-  /* padding-bottom: clamp(4.063rem, -1.7687rem + 24.8819vw, 24.1875rem); */
+  gap: 10px;
 }
 
 .header__theme-menu-item {
   list-style: none;
-  margin-right: 23px;
-}
-
-.header__theme-menu-item:last-child {
-  margin-right: 0px;
 }
 
 
