@@ -136,7 +136,7 @@
   width: 100%;
   min-height: 378px;
   margin-bottom: 16px;
-  padding-bottom: clamp(2rem, -1.6836rem + 15.7165vw, 7.375rem);
+  padding-bottom: clamp(2rem, -1.6836rem + 15.7165vw, 6.375rem);
 }
 
 .title {
