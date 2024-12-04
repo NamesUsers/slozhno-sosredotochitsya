@@ -387,7 +387,7 @@
 @media (width <=768px) {
 
   .header__theme-menu-list {
-    padding-top: clamp(4.688rem, 2.4630rem + 18.0265vw, 12rem);
+    padding-top: clamp(4.688rem, 0.463rem + 18.0265vw, 12rem);
     padding-right: 20px;
     flex-direction: column;
   }
@@ -404,11 +404,11 @@
   
   .header__description {
     max-width: 364px;
-    margin-bottom: clamp(4.125rem, 1.5500rem + 10.9867vw, 11.438rem);
+    margin-bottom: clamp(4.125rem, -0.45rem + 10.9867vw, 11.438rem);
   }
   
   .header__title {
-    margin-bottom: clamp(2rem, -1.9166rem + 10.0462vw, 10.125rem);
+    margin-bottom: clamp(2rem, 4.0834rem + 10.0462vw, 10.125rem);
   }
 
   /* =============================================================== */
