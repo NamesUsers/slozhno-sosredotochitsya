@@ -391,7 +391,7 @@
 }
 
   .header__theme-menu-list {
-    padding-top: clamp(10.688rem, 3.463rem + 18.0265vw, 12rem);
+    padding-top: clamp(2.688rem, 3.463rem + 18.0265vw, 12rem);
     padding-right: 20px;
     flex-direction: column;
   }
@@ -412,6 +412,7 @@
   }
   
   .header__title {
+    margin-top: 0;
     margin-bottom: clamp(2rem, 5.0834rem + 10.0462vw, 10.125rem);
   }
 
@@ -468,6 +469,13 @@
   .footer__title {
     padding-top: 25px;
   }
+
+}
+@media (width <=600px) {
+
+  .header__title {
+    margin-bottom: clamp(2rem, 0.0834rem + 10.0462vw, 10.125rem);
+}
 
 }
 
