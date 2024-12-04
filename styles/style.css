@@ -85,9 +85,6 @@
   gap: 10px;
 }
 
-.header__theme-menu-item {
-  list-style: none;
-}
 
 
 .header__theme-menu-button {
@@ -389,6 +386,7 @@
     padding-top: clamp(2.688rem, 3.463rem + 18.0265vw, 12rem);
     padding-right: 20px;
     flex-direction: column;
+    gap: 0px;
   }
 
   .header__theme-menu-item {
