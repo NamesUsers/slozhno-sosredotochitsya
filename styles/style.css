@@ -391,7 +391,7 @@
 }
 
   .header__theme-menu-list {
-    padding-top: clamp(10.688rem, 0.463rem + 18.0265vw, 12rem);
+    padding-top: clamp(10.688rem, 3.463rem + 18.0265vw, 12rem);
     padding-right: 20px;
     flex-direction: column;
   }
