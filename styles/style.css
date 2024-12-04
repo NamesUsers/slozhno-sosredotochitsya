@@ -132,9 +132,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* margin-top: 273px; */
   width: 100%;
-  text-align: right;
   min-height: 378px;
   margin-bottom: 16px;
 }
@@ -150,7 +148,7 @@
 
 .header__title {
   /* margin-bottom: 117px; */
-  margin-top: 54px;
+  margin-top: 50px;
 }
 
 .title-decor {
@@ -160,7 +158,7 @@
 .header__description {
   display: inline-block;
   font-size: 18px;
-  /* height: 100%; */
+  margin-bottom: 16px;
   color: var(--color-title-text);
   background-color: var(--color-text-bg);
   font-weight: 700;
