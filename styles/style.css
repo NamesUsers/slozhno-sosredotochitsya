@@ -401,10 +401,6 @@
   .header__theme-menu-item:last-child {
     margin-bottom: 0px;
   }
-
-  .header__main {
-    margin-top: 12px;
-  }
   
   .header__description {
     max-width: 364px;
@@ -489,7 +485,7 @@
   }
 
   .header__title {
-    margin: 0px 10px 50px;
+    margin: 0px 10px 55px;
   }
 
   .header__description {
