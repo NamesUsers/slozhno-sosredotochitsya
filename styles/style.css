@@ -85,6 +85,9 @@
   gap: 10px;
 }
 
+.header__theme-menu-item {
+  list-style: none;
+}
 
 
 .header__theme-menu-button {
@@ -197,6 +200,7 @@
   display: flex;
   flex-direction: column;
   max-width: max(100%, 649px);
+  width: calc(100% / (2/3));
 }
 
 .why__item {
