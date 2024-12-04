@@ -30,7 +30,7 @@
 }
 
 
-/* @media (width <= 768px) {
+@media (width <= 768px) {
   .page.theme_light .header__theme-menu-item {
     list-style: none;
     margin-right: 23px;
@@ -39,16 +39,4 @@
   .page.theme_light .header__theme-menu-item:last-child {
     margin-right: 0px;
   }
-} */
-
-@media (prefers-color-scheme: dark) and (width < 768px) {
-
-  .header__theme-menu-item {
-    list-style: none;
-    margin-right: 23px;
-  }
-  
-  .header__theme-menu-item:last-child {
-    margin-right: 0px;
-  }
-} 
+}
