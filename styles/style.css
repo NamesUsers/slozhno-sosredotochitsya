@@ -82,7 +82,7 @@
   display: flex;
   justify-content: center;
   padding-top: 23px;
-  padding-bottom: clamp(4.063rem, -1.7687rem + 24.8819vw, 241875rem);
+  padding-bottom: clamp(4.063rem, -1.7687rem + 24.8819vw, 24.1875rem);
 }
 
 .header__theme-menu-item {
@@ -384,14 +384,11 @@
 
 @media (width <=768px) {
 
-  .header__theme-menu {
-    margin: auto 0;
-  }
-
   .header__theme-menu-list {
     padding-top: clamp(4.688rem, 0.4630rem + 18.0265vw, 12rem);
     padding-right: 20px;
     flex-direction: column;
+    padding-bottom: 0;
   }
 
   .header__theme-menu-item {
