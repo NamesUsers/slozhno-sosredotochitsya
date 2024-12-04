@@ -20,7 +20,7 @@
 
 .decor {
   min-height: 668px;
-  height: 100%;
+  height: 100vh;
 }
 
 .decor::after {
@@ -473,7 +473,7 @@
 }
 } */
 
-@media (width <=375px) {
+@media (width <=500px) {
 
   .header {
     margin-bottom: 40px;
