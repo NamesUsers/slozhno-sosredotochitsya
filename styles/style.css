@@ -389,7 +389,8 @@
   }
 
   .header__theme-menu-list {
-    /* padding: 192px 20px clamp(4.063rem, -0.5145rem + 19.5305vw, 17.063rem) 0px; */
+    padding-top: clamp(4.688rem, 0.4630rem + 18.0265vw, 12rem);
+    padding-right: 20px;
     flex-direction: column;
   }
 
