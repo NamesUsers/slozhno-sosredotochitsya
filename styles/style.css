@@ -82,7 +82,7 @@
   display: flex;
   justify-content: center;
   padding-top: 23px;
-  padding-bottom: clamp(4.063rem, -1.7687rem + 24.8819vw, 24.1875rem);
+  padding-bottom: clamp(4.063rem, -1.7687rem + 24.8819vw, 241875rem);
 }
 
 .header__theme-menu-item {
@@ -149,6 +149,7 @@
 
 .header__title {
   /* margin-bottom: 117px; */
+  margin-top: 54px;
 }
 
 .title-decor {
@@ -493,7 +494,7 @@
   }
 
   .header__theme-menu-list {
-    padding: 75px 10px clamp(4.063rem, -3.5145rem + 19.5305vw, 17.063rem) 0px;
+    padding: 75px 10px clamp(3.125rem, -3.5145rem + 19.5305vw, 17.063rem) 0px;
     flex-direction: column;
   }
 
