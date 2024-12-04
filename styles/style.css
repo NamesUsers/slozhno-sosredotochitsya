@@ -82,7 +82,7 @@
   display: flex;
   justify-content: center;
   padding-top: 23px;
-  padding-bottom: clamp(4.063rem, -1.7687rem + 24.8819vw, 24.1875rem);
+  /* padding-bottom: clamp(4.063rem, -1.7687rem + 24.8819vw, 24.1875rem); */
 }
 
 .header__theme-menu-item {
@@ -129,12 +129,14 @@
 }
 
 .header__main {
+  margin-top: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
   min-height: 378px;
   margin-bottom: 16px;
+  padding-bottom: clamp(2rem, -1.6836rem + 15.7165vw, 8.375rem);
 }
 
 .title {
@@ -147,7 +149,7 @@
 }
 
 .header__title {
-  /* margin-bottom: 117px; */
+  margin-bottom: clamp(2rem, -0.9613rem + 12.6348vw, 7.125rem);
   margin-top: 50px;
 }
 
@@ -388,7 +390,6 @@
     padding-top: clamp(4.688rem, 0.4630rem + 18.0265vw, 12rem);
     padding-right: 20px;
     flex-direction: column;
-    padding-bottom: 0;
   }
 
   .header__theme-menu-item {
