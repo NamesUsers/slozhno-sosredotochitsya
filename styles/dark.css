@@ -27,13 +27,13 @@
     --color-decoration:rgb(255, 0, 112);
   }
 
-  .header__theme-menu-item {
-    list-style: none;
-    margin-right: 23px;
-  }
-  
-  .header__theme-menu-item:last-child {
-    margin-right: 0px;
-  }
 }
 
+.page.theme_light .header__theme-menu-item {
+  list-style: none;
+  margin-right: 23px;
+}
+
+.page.theme_light .header__theme-menu-item:last-child {
+  margin-right: 0px;
+}
