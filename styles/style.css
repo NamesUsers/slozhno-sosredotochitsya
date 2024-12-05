@@ -263,7 +263,8 @@
 }
 
 .what__item {
-  max-width: 315px;
+  width: 32%;
+  /* max-width: 315px; */
 }
 
 
@@ -425,7 +426,7 @@
   }
 
   .what__item {
-    max-width: 100%;
+    width: 100%;
   }
 
 
