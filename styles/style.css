@@ -364,16 +364,16 @@
 /* ========================================================= */
 
 .footer {
-  padding: 304px 0px 274px;
+  /* padding: 304px 0px 274px; */
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .footer__title {
-  padding-top: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* padding-top: 15px; */
   margin-bottom: 0;
 }
 
@@ -461,11 +461,11 @@
   /* ========================================================================= */
 
   .footer {
-    padding: 447px 0px 417px;
+    /* padding: 447px 0px 417px; */
   }
 
   .footer__title {
-    padding-top: 25px;
+    /* padding-top: 25px; */
   }
 
 }
@@ -600,11 +600,11 @@
   /* ========================================================================= */
 
   .footer {
-    padding: 286px 0px 285px;
+    /* padding: 286px 0px 285px; */
   }
 
   .footer__title {
-    padding-top: 0px;
+    /* padding-top: 0px; */
   }
 
 }
