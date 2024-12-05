@@ -263,7 +263,9 @@
 }
 
 .what__item {
-  width: 32%;
+  width: 31% ;
+  flex-grow: 1;
+  width: max(315px,31.5%) ;
   /* max-width: 315px; */
 }
 
