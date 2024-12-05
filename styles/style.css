@@ -273,6 +273,7 @@
 
 .cards__how {
   display: flex;
+  gap: 20px;
 }
 
 .how__title {
