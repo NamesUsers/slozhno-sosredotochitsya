@@ -14,7 +14,6 @@
   background-repeat: no-repeat;
   background-position: bottom center;
   position: relative;
-  height: 668px;
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
@@ -179,6 +178,7 @@
 .cards__why {
   width: 100%;
   display: flex;
+  gap: 20px;
 }
 
 .cards__title {
@@ -189,12 +189,12 @@
   display: block;
   width: 100%;
   max-width: 315px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
-.why__title {
+/* .why__title {
   margin-right: 20px;
-}
+} */
 
 .main__content,
 .list {
@@ -239,7 +239,7 @@
 }
 
 .list__link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid currentColor;
   text-decoration-color: var(--color-link-hover);
 }
 

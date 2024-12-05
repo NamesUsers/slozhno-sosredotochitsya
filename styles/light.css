@@ -4,31 +4,6 @@
   переключая тему
 */
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --theme-bg: rgb(255, 241, 247);
-    --color-hero-text: rgb(255, 194, 230);
-    --color-title-text: rgb(53, 52, 48);
-    --color-link-focus: rgb(53, 52, 48);
-    --color-link-hover: rgb(53, 52, 48);
-    --color-text: rgb(53, 52, 48);
-    --color-text-bg: rgb(255, 141, 203);
-    --color-button-bg-hover: rgba(50, 49, 45, 0.4);
-    --color-button-bg: rgb(53, 52, 48);
-    --color-button-text: rgb(53, 52, 48);
-    --color-card-text: rgb(53, 52, 48);
-    --font-family: IBM Plex Mono;
-    --rec: none;
-    --accent-color: rgb(255, 0, 112);
-    --accent-color-other: rgb(255, 141, 203);
-    --bg-hero: url(../images/cover-image-light.png);
-    --color-decoration: rgb(53, 52, 48);
-    --rec-color: transparent ;
-  }
-
-
-}
-
 .page.theme_light {
   --font-family: IBM Plex Mono;
   --theme-bg: rgb(255, 241, 247);
@@ -59,5 +34,28 @@
 @media (prefers-color-scheme: light) and (width <= 768px) {
   :root {
     --accent-color: rgb(255, 141, 203);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --theme-bg: rgb(255, 241, 247);
+    --color-hero-text: rgb(255, 194, 230);
+    --color-title-text: rgb(53, 52, 48);
+    --color-link-focus: rgb(53, 52, 48);
+    --color-link-hover: rgb(53, 52, 48);
+    --color-text: rgb(53, 52, 48);
+    --color-text-bg: rgb(255, 141, 203);
+    --color-button-bg-hover: rgba(50, 49, 45, 0.4);
+    --color-button-bg: rgb(53, 52, 48);
+    --color-button-text: rgb(53, 52, 48);
+    --color-card-text: rgb(53, 52, 48);
+    --font-family: IBM Plex Mono;
+    --rec: none;
+    --accent-color: rgb(255, 0, 112);
+    --accent-color-other: rgb(255, 141, 203);
+    --bg-hero: url(../images/cover-image-light.png);
+    --color-decoration: rgb(53, 52, 48);
+    --rec-color: transparent ;
   }
 }
