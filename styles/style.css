@@ -263,10 +263,8 @@
 }
 
 .what__item {
-  width: 31% ;
   flex-grow: 1;
   width: max(315px,31.5%) ;
-  /* max-width: 315px; */
 }
 
 
@@ -275,7 +273,6 @@
 
 .cards__how {
   display: flex;
-  gap: 20px;
 }
 
 .how__title {
@@ -537,6 +534,7 @@
   .cards__how,
   .cards__why {
     flex-direction: column;
+    gap: 20px;
   }
 
   .cards__title {
